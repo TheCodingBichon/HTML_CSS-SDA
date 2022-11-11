@@ -1,0 +1,59 @@
+.container {
+  max-width: 1000px;
+  margin: 80px auto;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  min-height: 500px;
+}
+
+.content {
+  display: flex;
+  max-height: 500px;
+}
+
+.navigation {
+  background-color: rgb(red, green, blue);
+  flex: 0 0 20%;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+}
+
+.view {
+  overflow-y: scroll;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+footer > div {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: gray;
+  width: 50vh;
+}
+
+td {
+  background-color: lightgrey;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  padding: 5px;
+  background-color: lightgrey;
+}
